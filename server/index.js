@@ -110,6 +110,6 @@ app.post("/resetpassword/:id/:token", (req, res) => {
   });
 });
 
-app.listen(4000, () => {
+app.listen(10000, () => {
   console.log("Server running");
 });
